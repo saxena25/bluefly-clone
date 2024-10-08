@@ -1,0 +1,229 @@
+.sub-navbar-wrapper{
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    position: fixed;
+    top: 5rem;
+    background-color: white;
+    height: 1.5rem;
+    padding-top: .5rem;
+    z-index: 99;
+}
+
+.sub-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    z-index: 99;
+}
+
+.drop-down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .4rem;
+
+}
+
+.drop-down button{
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.drop-down button:hover{
+    cursor: pointer;
+}
+
+.drop-down:hover{
+    cursor: pointer;
+}
+
+.drop-down img{
+    width: 1rem;
+}
+
+.sub-menu-clothing{
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    margin-top: .1rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 1rem;
+    padding-top: .4rem;
+    background-color: white;
+    /* transition: transform 0.3s ease; */
+}
+
+/* .sub-menu-clothing:hover{
+    transform: scaleY(1);
+} */
+
+.women{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.women p{
+    font-weight: bolder;
+}
+
+.women h3{
+    font-weight: bolder;
+}
+
+.women p:hover{
+    cursor: pointer;
+    color: teal;
+}
+.men{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.men p{
+    font-weight: bolder;
+}
+
+.men h3{
+    font-weight: bolder;
+}
+
+.men p:hover{
+    cursor: pointer;
+    color: teal;
+}
+
+.sub-menu-shoes{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 1rem;
+    gap: 3rem;
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.women-shoes{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: .6rem;
+}
+
+.women-shoes h3{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.women-shoes p{
+    font-weight: bolder;
+}
+
+.women-shoes p:hover{
+    color: teal;
+    cursor: pointer;
+}
+
+.women-designers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.women-designers h3{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.women-designers p{
+    font-weight: bolder;
+}
+
+.women-designers p:hover{
+    color: teal;
+    cursor: pointer;
+}
+
+.men-shoes{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.men-shoes h3{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.men-shoes p{
+    font-weight: bolder;
+}
+
+.men-shoes p:hover{
+    cursor: pointer;
+    color: teal;
+}
+
+.sub-menu-handbag{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 80vh;
+    gap: 8rem;
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.handbag-top-designers{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.handbag-top-designers h3{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.handbag-top-designers p{
+    font-weight: bolder;
+}
+
+.handbag-top-designers p:hover{
+    cursor: pointer;
+    color: teal;
+}
+
+.all-handbags{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.all-handbags h3{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.all-handbags p{
+    font-weight: bolder;
+}
+
+.all-handbags p:hover{
+    cursor: pointer;
+    color: teal;
+}

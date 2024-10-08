@@ -1,0 +1,42 @@
+.banners-wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 8rem;
+}
+
+.banner-top{
+    overflow: hidden;
+}
+
+.banner-top img{
+    width: 100%;
+    padding: .5rem;
+    transition: transform 1s ease;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.banner-top:hover img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.banner-center{
+    overflow: hidden;
+}
+
+.banner-center img{
+    width: 100%;
+    padding: .5rem;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    transition: transform 1s ease; 
+}
+
+.banner-center img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+

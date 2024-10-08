@@ -1,0 +1,59 @@
+.home-wrapper{
+    margin-top: 4rem;
+}
+
+.home{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-image{
+    width: 20rem;
+    height: 22rem;
+}
+
+.shop-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-out;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-weight: 600;
+    width: 13rem;
+    text-align: center;
+    transition: transform 0.3s ease-out;
+}
+
+.card-title:hover{
+    transform: scaleY(1.2);
+}
+
+.card-button{
+    background-color: white;
+    border: none;
+}
+
+.card-button:hover{
+    cursor: pointer;
+}

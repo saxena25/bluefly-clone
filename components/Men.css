@@ -1,0 +1,95 @@
+.women-wrapper{
+    width: 100%;
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.women-wrapper h1{
+    margin-bottom: 1.5rem;
+}
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    /* border: 1px solid black; */
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content: space-evenly; */
+    text-align: center;
+    width: 110rem;
+    gap: 1rem;
+    margin-left: 2rem;
+    /* border: 1px solid blue; */
+}
+
+.product{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    transition: transform 0.2s ease-out;
+}
+
+.product:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.product img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.product button{
+    padding: 6px 10px;
+    /* background-color: rgb(89, 89, 223); */
+    border-radius: 6px;
+    border: none;
+    font-size: .9rem;
+    transition: transform 0.3s ease;
+}
+
+.product button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.product-filter{
+    width: 20rem;
+    /* padding: 0; */
+    /* border: 1px solid black; */
+    height: 50vh;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.line{
+    height: 1px;
+    background-color: black;
+    /* width: 110%; */
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.filter select{
+    height: 2rem;
+    padding-left: 6px;
+    /* padding-right: 8px; */
+    border-radius: 8px;
+}
